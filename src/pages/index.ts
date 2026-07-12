@@ -1,2 +1,10 @@
-// Export all page components from here
-// Example: export { default as HomePage } from './Home/HomePage';
+export { default as DashboardPage } from './Dashboard';
+export { default as CamerasPage } from './Cameras';
+export { default as AIModelsPage } from './AIModels';
+export { default as ModelRegistryPage } from './ModelRegistry';
+export { default as ViolationsPage } from './Violations';
+export { default as ReportsPage } from './Reports';
+export { default as SettingsPage } from './Settings';
+export { default as HelpPage } from './Help';
+export { default as LoginPage } from './Login';
+export { default as RegisterPage } from './Register';
