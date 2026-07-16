@@ -249,15 +249,6 @@ export default function MainLayout() {
               <span>Cameras</span>
             </NavLink>
           </li>
-          <li>
-            <NavLink 
-              to="/models" 
-              className={({ isActive }) => `${styles.navItem} ${isActive ? styles.navItemActive : ''}`}
-            >
-              <span className="material-symbols-outlined">psychology</span>
-              <span>Active Model</span>
-            </NavLink>
-          </li>
 
           <li>
             <NavLink 
@@ -327,10 +318,6 @@ export default function MainLayout() {
         <NavLink to="/cameras" className={({ isActive }) => `${styles.mobileNavItem} ${isActive ? styles.mobileNavItemActive : ''}`}>
           <span className="material-symbols-outlined">videocam</span>
           <span>Cameras</span>
-        </NavLink>
-        <NavLink to="/models" className={({ isActive }) => `${styles.mobileNavItem} ${isActive ? styles.mobileNavItemActive : ''}`}>
-          <span className="material-symbols-outlined">psychology</span>
-          <span>Active AI</span>
         </NavLink>
         <NavLink to="/violations" className={({ isActive }) => `${styles.mobileNavItem} ${isActive ? styles.mobileNavItemActive : ''}`}>
           <span className="material-symbols-outlined">warning</span>
